@@ -1,10 +1,11 @@
-package com.thefactory.shoppingapp.model.Dto;
+package com.thefactory.shoppingapp.model.Dto.response;
 
+import com.thefactory.shoppingapp.common.Response;
 import lombok.Data;
 
-import java.io.Serializable;
 @Data
-public class AddressDto implements Serializable {
+public class AddressResponse extends Response {
+
 
     private  Long id;
     private String streetAddress;

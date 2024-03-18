@@ -26,7 +26,7 @@ public class Customer {
     private String  contactDetails;
 
     @Column(name = "address")
-    private Address address;
+    private String address;
 
     @Column(name = "email_address")
     private String emailAddress;
